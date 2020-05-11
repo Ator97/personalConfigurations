@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=Jupyter
+Comment=Application description
+Icon=~/Pictures/jupyter.png
+Exec=jupyter-nohup
+Terminal=false
+Categories=Tags;Describing;Application;Python;Programming;Personal
+

@@ -1,0 +1,37 @@
+#User configurations
+
+#Alias for general purposes
+alias cl="clear"
+alias cls="clear"
+alias l="ls -F --color"
+alias ll="ls -l -F --color"
+alias lla="clear;ls -la -F --color"
+alias la="clear;ls -a -F --color"
+alias p="clear;ping"
+alias p8="clear;ping 8.8.8.8"
+alias bye="clear; exit"
+alias goodbye="sudo shutdown now"
+
+#Zip function
+#Create a zil file and delete the original.
+zipr()
+{ 
+	zip -rl "$1".zip $1; 
+}
+
+#Kill a process and all his children
+psll () { 
+	kill $(pgrep $1);
+}
+
+# C'mon skype at begining? 
+psll skype
+
+
+#Optional alises if you use Python or ERStudio and don't want to lose you terminal
+#In descktopConfigurations i have something better ;)
+
+#alias jupnot="nohup jupyter notebook  > /dev/null &"
+#alias erstudio="origen=$PWD && cd ~/.wine/drive_c/Program\ Files\ \(x86\)/Embarcadero/ERStudio8.0/ &&  (nohup wine ERSTUDIO.exe > /dev/null &) && cd $origen"
+
+

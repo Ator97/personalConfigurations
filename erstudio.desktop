@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Encoding=UTF-8
+Name=E/R Studio
+Comment=Application description
+Icon=~/Pictures/ERStudio-Data-Architect.png
+Exec=erstudio
+Terminal=false
+Categories=Tags;Describing;Application
+

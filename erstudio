@@ -3,7 +3,7 @@
 origen=$PWD
 
 
-cd /home/ator97/.wine/drive_c/Program\ Files\ \(x86\)/Embarcadero/ERStudio8.0/
+cd ~/.wine/drive_c/Program\ Files\ \(x86\)/Embarcadero/ERStudio8.0/
 nohup wine ERSTUDIO.exe > /dev/null &
 
 cd $origen
