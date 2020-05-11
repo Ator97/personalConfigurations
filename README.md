@@ -1,7 +1,7 @@
 # Personal configurations
 
 ## Author: @Ator97
-## Linkedin Profile : __[Oscar Gutiérrez](https://www.linkedin.com/in/oscar-guti%C3%A9rrez-castillo-0597/)
+## Linkedin Profile : [Oscar Gutiérrez](https://www.linkedin.com/in/oscar-guti%C3%A9rrez-castillo-0597/)
 
 To whm may concern, i hope you can found usefull this repo! 
 Feel free to use it !
