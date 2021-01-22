@@ -28,6 +28,24 @@ psll () {
 psll skype
 
 
+alias venvls="ls ~/Documentos/git"
+venvactivate()
+{
+        source ~/Documentos/git/"$1"/"$1"/bin/activate
+}
+venvcreate()
+{
+    python3 -m venv  ~/Documentos/git/"$1"/"$1"
+}
+
+venvgit()
+{
+    mkdir ~/Documentos/git/"$1"
+    git init ~/Docuemntos/git/"$1"
+    python3 -m venv  ~/Documentos/git/"$1"/"$1"
+}
+
+
 #Optional alises if you use Python or ERStudio and don't want to lose you terminal
 #In descktopConfigurations i have something better ;)
 
